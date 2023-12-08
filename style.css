@@ -1,14 +1,14 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
-
 .container {
     display: flex;
 }
 
 .sidebar {
-    background-color: rgb(213, 200, 200);
+    background-color: rgb(14, 1, 1);
     /* width: 350px; */
     height: 100vh;
     transition: transform 0.3s ease-in;
@@ -37,7 +37,8 @@
 
 .main {
     /* background-color: blueviolet; */
-    width: 90vw;
+    width: 100%;
+    background-color: grey;
     
 }
 
@@ -56,6 +57,7 @@
     display: flex;
     /* align-items: center; */
     flex-direction: column;
+    justify-content: space-between;
     justify-content: center;
     padding: 30px;
     margin-top: 50px;
@@ -63,24 +65,28 @@
 }
 
 .hello {
-    font-size: 40px;
-    color: grey;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
 }
 
 .name {
-    font-size: 60px;
+    font-size: 45px;
     font-weight: bold;
+    margin-bottom: 10px;
     
 }
 
 .about {
     font-size: 40px;
-    color: grey;
+    color: white;
+    margin-bottom: 10px;
 }
 
 .moreabout {
     font-size: 15px;
-    color: grey;
+    color: white;
+    margin-bottom: 10px;
 }
 
 .buttons button {
@@ -89,13 +95,23 @@
     padding: 10px 20px;
     margin: 20px 0px;
     margin-right: 10px;
-    border-radius: 10px;
+    border-radius: 2px  ;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     
 }
-
+.new{
+    display: flex;
+    /* background-color: white;
+    height: 30px; */
+    width: 100%;
+    /* margin-right: 0px; */
+   /* right: 0px; */
+  left: 0px;
+  align-items: center;
+  justify-content: center;
+}
 .buttons button:hover {
     background-color: white;
     color: black;
@@ -103,8 +119,8 @@
 
 .pic img {
     height: 400px;
-    width: 333px;
-    border-radius: 20px;
+    border-radius:2rem;
+    width: 300px;
     /* width: 500px; */
 }
 
@@ -156,7 +172,7 @@
     color: white;
     padding: 8px 15px;
     margin: 10px 5px;
-    border-radius: 20px;
+    border-radius: 50%;
     font-size: 15px;
     /* width: 50px; */
     font-weight: bold;
