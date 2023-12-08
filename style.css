@@ -1,0 +1,341 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(213, 200, 200);
+    /* width: 350px; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 40px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.sidebar nav li {
+    text-decoration: none;
+    list-style: none;
+    padding: 30px 0px;
+    /* margin: 10px; */
+    
+    font-size: larger;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: blueviolet; */
+    width: 90vw;
+    
+}
+
+.infocontainer {
+    /* background-color: pink;   */
+    height: 70vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    
+}
+
+.info {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 50px;
+    
+}
+
+.hello {
+    font-size: 40px;
+    color: grey;
+}
+
+.name {
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+
+.about {
+    font-size: 40px;
+    color: grey;
+}
+
+.moreabout {
+    font-size: 15px;
+    color: grey;
+}
+
+.buttons button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: black;
+}
+
+.pic img {
+    height: 400px;
+    width: 333px;
+    border-radius: 20px;
+    /* width: 500px; */
+}
+
+
+/* contact page css */
+
+.contactform{
+    padding: 50px 80px;
+}
+
+.contactform form{
+    padding-top: 20px;
+    }
+
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.contactform form div label{
+    margin: 5px 0px;
+}
+
+.contactform form div input{
+    padding: 3px;
+    border-radius: 8px;
+}
+
+#emailHelp{
+    margin-top: 0px;
+    font-size: 10px;
+    color: rgb(155, 47, 47)
+}
+#form-check{
+    flex-direction: row;
+    /* margin-top: 10px; */
+}
+#exampleCheck1{
+    margin-right: 10px;
+}
+
+.buttons-sm{
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    /* width: 50px; */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons-sm:hover {
+    background-color: white;
+    color: black;
+}
+
+/* intro css */
+.intro{
+    margin: 30px 30px;
+}
+.intro h2{
+    padding: 10px;
+    margin: 10px;
+}
+.intro p{
+    padding: 0px 10px;
+    margin:  0px 10px;
+    font-size: 20px;
+}
+.skill{
+    /* width: 290px; */
+    height: 5px;
+    background-color: red;
+    margin-left: 10px;
+    /* margin:  9px 10px; */
+}
+.skillitem{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+.s100{
+    width: 300px;
+}
+.s75{
+    width: 240px;
+}
+.s50{
+    width: 150px;
+}
+.s25{
+    width: 100px;
+}
+.projectitem{
+    margin: 10px;
+    padding: 10px;
+}
+.projectitem h4{
+margin-left:  20px;
+margin-bottom: 5px;
+}
+
+/* certificate css */
+
+.certificate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 130px;
+}
+.box{
+    border: 4px solid black;
+    background-color: rgb(92, 84, 100);
+    margin: 20px;
+    padding: 20px;
+}
+.box img{
+height: 200px;
+width: 300px;
+}
+.cert{
+    text-align: center;
+    margin: 30px;
+    margin-left: 153px;
+}
+
+/* services css */
+
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.item{
+    border: 2px solid black;
+    background-color: rgb(213, 200, 200);
+    height: 100px;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    
+}
+.head{
+    margin: 30px 0px;
+    text-align: center;
+    margin-left: 125px;
+}
+
+.hamburger img{
+    width: 25px;
+    
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+@media(max-width: 860px){
+   .pic{
+    display: none;
+   }
+}
+@media(max-width: 500px){
+    .hello {
+        font-size: 30px;
+    }
+    
+    .name {
+        font-size: 40px;    
+    }
+    
+    .about {
+        font-size: 30px;  
+    }
+    
+    .moreabout {
+        font-size: 10px;
+    }
+    .buttons button{
+        
+        padding: 5px 10px;
+        margin: 10px 5px;
+        border-radius: 10px;
+        font-size: 10px;
+        
+    }
+    .box img{
+        height: 150px;
+        width: 250px;
+        }
+    .box{
+        padding: 10px;
+        left: 0px;
+    }    
+    
+    
+ }
+
+ @media(max-width: 600px){
+    .service{
+        margin-left: 35px;
+    }
+    .head{
+        margin-left: 20px;
+    }
+    .certificate{
+        margin-left: 80px;
+    }
+    .cert{
+        margin-left: 110px;
+    }
+ }
